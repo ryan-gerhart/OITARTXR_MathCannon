@@ -1,0 +1,61 @@
+{
+  "uploadEntries": [
+    {
+      "assetId": "b14e25e8-a86f-4ef7-aa8e-3851f979f019",
+      "name": "PhysicsEffectGallery",
+      "isEnabled": false,
+      "uploadItems": [
+        {
+          "prefabFilepath": "Assets/Scenes/PhysicsEffectsGallery.unity",
+          "buildPlatforms": [
+            "android",
+            "pc"
+          ]
+        }
+      ],
+      "perPlatformAssets": false,
+      "thumbnailImagesFolder": "Assets\\MeshToolkit\\Thumbnails\\b14e25e8",
+      "includeThumbnail": false,
+      "thumbnailGenerationBehavior": "Autogenerate",
+      "metaverseId": "7d4b4fd1-dd79-4181-8535-ad11f8c3b23c"
+    },
+    {
+      "assetId": "4502ede6-7242-4bfe-8555-d9a8835d1544",
+      "name": "AstronomyTesting",
+      "isEnabled": false,
+      "uploadItems": [
+        {
+          "prefabFilepath": "Assets/_Project/Scenes/Astronomy Testing.unity",
+          "buildPlatforms": [
+            "android",
+            "pc"
+          ]
+        }
+      ],
+      "perPlatformAssets": false,
+      "thumbnailImagesFolder": "Assets\\MeshToolkit\\Thumbnails\\4502ede6",
+      "includeThumbnail": false,
+      "thumbnailGenerationBehavior": "Autogenerate",
+      "metaverseId": "7d4b4fd1-dd79-4181-8535-ad11f8c3b23c"
+    },
+    {
+      "assetId": "b99fc679-d942-4234-8a59-938114d7e9d9",
+      "name": "AstronomySim_v1",
+      "isEnabled": true,
+      "uploadItems": [
+        {
+          "prefabFilepath": "Assets/_Project/Scenes/Astronomy Testing.unity",
+          "buildPlatforms": [
+            "android",
+            "pc"
+          ]
+        }
+      ],
+      "perPlatformAssets": false,
+      "thumbnailImagesFolder": "Assets\\MeshToolkit\\Thumbnails\\b99fc679",
+      "includeThumbnail": false,
+      "thumbnailGenerationBehavior": "Autogenerate",
+      "metaverseId": "40c3b28f-e495-4a70-88a2-132f6a595601"
+    }
+  ]
+}

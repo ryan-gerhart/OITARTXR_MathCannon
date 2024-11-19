@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: DetonateDirectionalExplosion
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":-171.0,"y":-12.0},"zoom":1.0,"elements":[{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"Explosion","$type":"System.String"},"object":null},"position":{"x":-413.0,"y":335.0},"guid":"3ac72410-b357-45b5-b903-327a7397903f","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"9"},{"allowPolling":false,"_numValues":1,"coroutine":false,"defaultValues":{},"position":{"x":-349.0,"y":36.0},"guid":"0d74b696-34ed-4468-93ad-7fade6f02a50","$version":"A","$type":"Microsoft.Mesh.VisualScripting.StateChangedEventUnit","$id":"11"},{"chainable":false,"parameterNames":[],"member":{"name":"Detonate","parameterTypes":[],"targetType":"Microsoft.Mesh.Physics.DirectionalExplosion","targetTypeName":"Microsoft.Mesh.Physics.DirectionalExplosion","$version":"A"},"defaultValues":{"target":null},"position":{"x":42.0,"y":142.0},"guid":"b5512cbe-104a-4283-8013-f94d6e4d84c8","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"13"},{"member":{"name":"IsSelected","parameterTypes":null,"targetType":"Microsoft.Mesh.Interactables.MeshInteractableBody","targetTypeName":"Microsoft.Mesh.Interactables.MeshInteractableBody","$version":"A"},"defaultValues":{"target":null},"position":{"x":-633.0,"y":53.0},"guid":"33f14c6b-9bd6-4152-9ee8-8ac13bccb97f","$version":"A","$type":"Unity.VisualScripting.GetMember","$id":"17"},{"defaultValues":{},"position":{"x":-116.0,"y":81.0},"guid":"11822904-3f03-452e-8617-140051fd0baf","$version":"A","$type":"Unity.VisualScripting.If","$id":"20"},{"sourceUnit":{"$ref":"11"},"sourceKey":"trigger","destinationUnit":{"$ref":"20"},"destinationKey":"enter","guid":"217f9144-3757-4abb-89b8-c2c03c7bef07","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"20"},"sourceKey":"ifTrue","destinationUnit":{"$ref":"13"},"destinationKey":"enter","guid":"7e340962-23b9-483a-a74b-0034ad2f7baf","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"9"},"sourceKey":"value","destinationUnit":{"$ref":"13"},"destinationKey":"target","guid":"b6325404-4fba-4842-bb65-391218e4cbd7","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"17"},"sourceKey":"value","destinationUnit":{"$ref":"11"},"destinationKey":"in_0","guid":"b20aa154-d572-427e-81b8-fc75dc4f2b4f","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"11"},"sourceKey":"out_0","destinationUnit":{"$ref":"20"},"destinationKey":"condition","guid":"5cf6a959-441c-4e06-a83a-f61c00526b1a","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
