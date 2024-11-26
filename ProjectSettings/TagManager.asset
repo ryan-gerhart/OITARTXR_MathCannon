@@ -27,6 +27,7 @@ TagManager:
   - NoTeleport
   - CollaborationDataModel
   - AudioZone
+  - Cannonball
   layers:
   - Default
   - TransparentFX
